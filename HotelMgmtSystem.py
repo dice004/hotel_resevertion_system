@@ -337,44 +337,12 @@ class TheAfricanRegent(Three_Star_Hotel):
 		}
 
 
-class HotelMgmtSystem:
-
-		def __init__(self, hotel_list):
-				self.hotel_list = []
-
-		def check_hotel_availability(self, hotel_name):
-				return hotel_name in self.hotel_list
-
-		def check_room_availability (self, hotel_name, room_type):
-				room_type = Room
-				for hotel in self.hotel_list:
-					if hotel.hotel_name == hotel_name:
-						for room in hotel.room_availability:
-							if room.room_type == room.room_status == "Available"
-											return True
-
-		def get_room_rice (self, hotel_name, room_type):
-			for hotel in self.hotel_list:
-				if hotel.hotel_name == hotel.name:
-					for room_type in room.room_availability:
-						return
 
 
 
-def sort_by_location(self):
-	pass
 
-def sort_by_rating(self):
-	pass
-
-
-						
-
-class User:
-	def __init__(self, user_name, phone_number, email):
-		self.user_name = user_name  
-		self.phone_number = phone_number
-		self.email = email
+#While Loops for rating selection, hotel selection, room, selection, while loops for user/booking info
+# import random for booking confirmation number
 
 
 
